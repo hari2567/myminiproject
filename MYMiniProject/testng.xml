@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="Default Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/MYMiniProject" parallel="classes" thread-count="7">
+        <classes>
+            <class name="Tests.accountpagetest">
+                <methods><include name="setup"/>
+                    <include name="testaccount"/>
+                    <include name="logoutFunctionality"/></methods>
+            </class><class name="Tests.headersectiontest"><methods><
+                include name="setup"/><include name="websitelogo"/>
+            <include name="navigationpage"/><include name="testNavigationTOHomeAndPopularPage"/>
+            <include name="testnavigationtoaccountpage"/></methods></class><class name="Tests.homepagetest">
+            <methods><include name="iamonthehomepage"/><include name="ienterusernameandpassword"/>
+                <include name="icheckwhwtherhometextisdisplayed"/>
+                <include name="iverifyhomemovieheadinganddescription"/>
+                <include name="iverifywhetherplaybuttonisdisplayed"/>
+                <include name="icheckwhethertextismatched"/><include name="iverifymoviessection"/><include name="iverifycontacticon"/><include name="iverifycontactsection"/></methods></class><class name="Tests.loginpagetest"><methods><include name="ImageLogoIsDisplayed"/><include name="pageWithoutlogin"/><include name="PageWithemptyusername"/><include name="pagewithemptypassword"/><include name="PageWIthInvalidNames"/><include name="pagewithvalidinputs"/></methods></class><class name="Tests.moviedetailstest"><methods><include name="setup"/><include name="homepahetest"/><include name="popularpage"/></methods></class><class name="Tests.popularpagetest"><methods><include name="setup"/><include name="popularsearch"/><include name="moviessearch"/></methods></class><class name="Tests.searchpagetest"><methods><include name="setup"/><include name="testsearch"/></methods></class></classes></test></suite>
